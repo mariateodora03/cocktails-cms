@@ -1,0 +1,63 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cocktails",
+  "info": {
+    "singularName": "cocktail",
+    "pluralName": "cocktails",
+    "displayName": "Cocktail"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Drink": {
+      "type": "string",
+      "required": true
+    },
+    "Category": {
+      "type": "string",
+      "default": "Ordinary Drink"
+    },
+    "Glass": {
+      "type": "string",
+      "default": "Cocktail glass"
+    },
+    "Instructions": {
+      "type": "richtext"
+    },
+    "DrinkThumb": {
+      "type": "string"
+    },
+    "Ingredient1": {
+      "type": "text"
+    },
+    "Ingredient2": {
+      "type": "text"
+    },
+    "Ingredient3": {
+      "type": "text"
+    },
+    "Ingredient4": {
+      "type": "text"
+    },
+    "Ingredient5": {
+      "type": "text"
+    },
+    "Measure1": {
+      "type": "text"
+    },
+    "Measure2": {
+      "type": "text"
+    },
+    "Measure3": {
+      "type": "text"
+    },
+    "Measure4": {
+      "type": "text"
+    },
+    "Measure5": {
+      "type": "text"
+    }
+  }
+}
